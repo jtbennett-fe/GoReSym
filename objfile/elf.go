@@ -349,9 +349,10 @@ scan:
 					offset += moduledata_idx + len(pclntabVA_bytes)
 					continue
 				}
+			}
 
-				found = true
-				break scan
+			found = true
+			break scan
 			} else {
 				break
 =======
